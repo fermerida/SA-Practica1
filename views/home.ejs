@@ -2,6 +2,9 @@
 <html lang="en">
        <!-- Main component for a primary marketing message or call to action -->
           <div class="jumbotron">
+            <% if (message.length > 0) { %>
+              <div class="alert alert-success col-sm-12"><%= message %></div>
+            <% } %>
             <h1>Welcome</h1>
             <p>Hello</p>
             <p>

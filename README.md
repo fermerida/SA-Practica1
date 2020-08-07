@@ -29,7 +29,7 @@ npm install
 
 # Formateo y estandarés de codigo
 
-Al utilizarse Javascript para la implementación se selecciono el estandard de codigo **Standard JS**
+Al utilizarse Javascript para la implementación se selecciono el estandard de codigo [Standard JS](https://standardjs.com/)
 
 
 # Author
