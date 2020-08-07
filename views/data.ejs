@@ -1,0 +1,23 @@
+<table class="table table-inverse">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Ordering</th>
+        <th>Access</th>
+        <th>Language</th>
+      </tr>
+    </thead>
+  
+    <tbody>
+      <% for(var i=0; i < contacts.length; i++) { %>
+      <tr>
+        <td><%= contacts[i].id %></td>
+        <td><%= contacts[i].name %></td>
+        <td><%= contacts[i].ordering %></td>
+        <td><%= contacts[i].access %></td>
+        <td><%= contacts[i].language %></td>
+      </tr>
+      <% } %>
+    </tbody>
+  </table>
