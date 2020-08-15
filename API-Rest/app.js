@@ -21,6 +21,7 @@ app.use(bodyParser.json())
 // routes
 app.use('/', rutas)
 
+// inicio de servidor
 app.listen(app.get('port'), () => {
   console.log('Server on port 3000')
 })
